@@ -6,8 +6,8 @@ public class Addition
 	[TestMethod]
 	public void Failing_Test_Lee()
 	{
-		double result = Program.Power("2", "4");
-		Assert.AreEqual(0, result);
+		double result = Program.Power("2", "3");
+		Assert.AreEqual(8, result);
 	}
 	[TestMethod]
 	public void Add_Valid_Patino()
