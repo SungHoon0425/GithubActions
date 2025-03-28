@@ -4,6 +4,12 @@ namespace GithubActionsLab;
 public class Addition
 {
 	[TestMethod]
+	public void Failing_Test_Lee()
+	{
+		double result = Program.Power("2", "4");
+		Assert.AreEqual(0, result);
+	}
+	[TestMethod]
 	public void Add_Valid_Patino()
 	{
 		Assert.AreEqual(3, Program.Add("1", "2"));
